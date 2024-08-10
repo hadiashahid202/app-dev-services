@@ -1,0 +1,73 @@
+/**********************************
+* Common Styles
+**********************************/
+
+body {
+	background: gray;
+	font-family: Montserrat;
+}
+
+#page-wrap {
+	max-width: 1440px;
+	margin: auto;
+	background: red;
+}
+
+.page-section {
+	padding: 120px;
+}
+
+.page-section h2 {
+	font-size: 72px;
+	font-weight: 700;
+	line-height: 87.77px;
+	text-align: center;
+	margin-bottom: 40px;
+
+}
+
+.page-section img {
+	max-width: 100%;
+}
+
+
+/**********************************
+* Individual Sections Style
+**********************************/
+
+/*** Services Section ***/
+#service-section {
+	background: #FF6060;
+}
+
+#service-section h2 {
+	margin-bottom: 120px;
+	color: #fff;
+}
+
+#service-section .services {
+	display: flex;
+	column-gap: 75px;
+}
+
+#service-section .services .service {
+	border-radius: 16px;
+	background-color: #fff;
+	padding: 40px 30px;
+	text-align: center;
+	box-shadow: 0px 7px 15px 0px #00000026;
+}
+
+#service-section .services .service h3 {
+	font-size: 36px;
+	font-weight: 500;
+	margin-bottom: 25px;
+
+}
+
+#service-section .services .service img {
+	width: 130px;
+	margin-bottom: 25px;
+}
+
+/*** Pricing Section ***/
